@@ -1,0 +1,122 @@
+body {
+  margin-left: auto;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #221f1f;
+}
+
+.contact-us {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.contact-us .left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-us .logo {
+  height: 32px;
+}
+
+.contact-us .divider {
+  font-size: 18px;
+  color: #777;
+}
+
+.contact-us.title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-us.right button {
+  margin-left: 12px;
+  padding: 8px 16px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.contact-us .sign-in-btn {
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+#contact-form {
+    display: flex;
+    margin: 20px 0;
+}
+
+#issue {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: underline;
+    color: black;
+}
+.footer-container {
+    background: linear-gradient(to bottom, #330000, #000000);
+    color: #ccc;
+    padding: 40px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.language-select select {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

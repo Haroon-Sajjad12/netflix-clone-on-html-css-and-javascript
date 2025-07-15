@@ -1,0 +1,137 @@
+body {
+  margin-left: auto;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #221f1f;
+}
+
+.help-header {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.help-header .left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.help-header .logo {
+  height: 32px;
+}
+
+.help-header .divider {
+  font-size: 18px;
+  color: #777;
+}
+
+.help-header .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.help-header .right button {
+  margin-left: 12px;
+  padding: 8px 16px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.help-header .sign-in-btn {
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+.back-link {
+  padding: 20px 40px;
+  font-size: 14px;
+  color: #333;
+}
+
+.back-link a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
+.terms-container {
+  max-width: 1600px;
+  margin: 25px ;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.terms-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  margin-top: -30px;
+  
+}
+
+.terms-container h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  font-weight: bolder;
+  
+}
+
+.terms-container p {
+  margin-bottom: 16px;
+}
+
+.last-updated {
+  margin-top: 40px;
+ 
+  color:black
+}
+
+.footer-container {
+    background: linear-gradient(to bottom, #330000, #000000);
+    color: #ccc;
+    padding: 40px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.language-select select {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+section.collapsed p {
+  display: none;
+}
